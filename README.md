@@ -1,8 +1,14 @@
 # Unsupervised Single-Scene Semantic Segmentation for Earth Observation
 
-**Directory "multiSeasonDatasetPreparation"** explains steps to prepare the multi-season dataset.
+**Instructions for Vaihingen dataset** 
 
-**Directory "codeSeasonVariation"** explains steps to run the domain adpatation code.
+Code can be run using following two commands:
+$ python trainVaihingen.py --manualSeed 85 --nFeaturesIntermediateLayers 64  --nFeaturesFinalLayer 8 --numTrainingEpochs 2 --modelName Model5ChannelInitialToMiddleLayersDifferent
+$ python obtainSegMapVaihingen.py
+
+Different manual seeds can be set in the above command.
+
+Please download the Vaihingen dataset and save it in the directory (w.r.t the code) "../data/Vaihingen/"
 
 
 ### Citation
