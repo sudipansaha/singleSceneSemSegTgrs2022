@@ -12,7 +12,7 @@ $ python obtainSegMapVaihingen.py
 
 Different manual seeds can be set in the above command.
 
-Please download the Vaihingen dataset and save it in the directory (w.r.t the code) "../data/Vaihingen/"
+Please download the Vaihingen dataset from appropriate source and save it in the directory (w.r.t the code) "../data/Vaihingen/"
 
 
 ### Citation
