@@ -4,8 +4,10 @@
 
 Code can be run using following two commands:
 
+For training the model on single scene (after running this command the model will be saved to ./trainedModels/)
 $ python trainVaihingen.py --manualSeed 85 --nFeaturesIntermediateLayers 64  --nFeaturesFinalLayer 8 --numTrainingEpochs 2 --modelName Model5ChannelInitialToMiddleLayersDifferent
 
+For obtaining segmentation maps from the test scenes (after running this command the model will be saved to ./results/vaihingen/)
 $ python obtainSegMapVaihingen.py
 
 Different manual seeds can be set in the above command.
