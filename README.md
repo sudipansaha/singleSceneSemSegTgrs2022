@@ -3,7 +3,9 @@
 **Instructions for Vaihingen dataset** 
 
 Code can be run using following two commands:
+
 $ python trainVaihingen.py --manualSeed 85 --nFeaturesIntermediateLayers 64  --nFeaturesFinalLayer 8 --numTrainingEpochs 2 --modelName Model5ChannelInitialToMiddleLayersDifferent
+
 $ python obtainSegMapVaihingen.py
 
 Different manual seeds can be set in the above command.
